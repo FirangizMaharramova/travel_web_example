@@ -1,0 +1,52 @@
+.last-part{
+    width:100%;
+    height: 40vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.last-part-left{
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.last-part-left h1{
+    font-size: 2.7rem;
+}
+.last-part-left p{
+    font-size: 1.3rem;
+    color: rgb(115, 114, 114);
+}
+.last-part-right{display: flex;
+    position: relative;
+}
+.last-part-right input{
+width: 320px;
+height: 40px;
+padding-left: 10px;
+border: none;
+border-radius: 8px;
+box-shadow: 0 0 5px rgb(150, 149, 149);
+}
+.last-part-right button{
+    width: 100px;
+    height: 32px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    border: none;
+    color: white;
+    background-color: royalblue;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 4px;
+}
+.last-part-right button:hover{
+    background-color: rgb(137, 164, 245);
+    color: white;
+
+}
